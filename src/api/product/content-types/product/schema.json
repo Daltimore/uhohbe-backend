@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_id": {
+      "type": "uid"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "product_image": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "title": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "enumeration",
+      "enum": [
+        "black",
+        "red",
+        "gray",
+        "white"
+      ]
+    },
+    "types": {
+      "type": "enumeration",
+      "enum": [
+        "candles",
+        "diffusers",
+        "collections"
+      ]
+    },
+    "size": {
+      "type": "integer"
+    }
+  }
+}
